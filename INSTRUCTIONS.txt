@@ -1,0 +1,27 @@
+----------------------------------------------------------------------
+| Keep the folder as it is, Copy the cipher text file to this folder.|
+----------------------------------------------------------------------
+
+FOLDER CONTENTS:
+----------------
+README.txt          -> This file
+english_words.txt   -> dictionary of english words
+plt.txt             -> plaintext dictionary for part 1
+Sellie-Lund_Ramchandran_DevireddyVenkata-decrypt.cpp   -> Application Source
+makefile            -> Makefile
+
+COMPILE TO EXECUTABLE:
+-----------------------
+For all Operating systems:
+
+	make
+
+It will compile under Microsoft VS2015, but the ciphertext (as a file), english_words.txt, and plt.txt must be in the root path.
+
+RUN the EXECUTABLE:
+-------------------
+In the Terminal type "./Selli_Lund-Ramchandran-DevireddyVenkata-decrypt" to run the compiled program.
+
+Once the program starts, it prompts for the cipher text file name (with extension and relative/absolute path).
+
+The resulting plaintext or the longest guess after two minutes will be displayed in the console.
